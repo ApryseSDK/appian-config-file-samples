@@ -7,8 +7,7 @@
           saveInto: {a!save(
             local!isSubmitting, // We need this variable to trigger the save event in the viewer. This will be true when pressed.
             true
-          ),
-          a!save(ri!isSubmit, true)
+          )
         })
     }
  */
