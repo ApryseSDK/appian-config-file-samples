@@ -28,7 +28,7 @@
                 base64todocumentversion(    // Use the smart service to convert the base64 string to a document version. This saves the document.
                     local!eventData.base64String,
                     document(
-                        cons!ATS_SIDE_LETTER_NEW_INVESTOR_PRIVATE_FUNDS_TE_AIFM,
+                        cons!MY_DOCUCUMENT,
                         "id"
                     )
                 )
