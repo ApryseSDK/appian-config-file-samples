@@ -28,7 +28,7 @@
                 base64todocumentversion(    // Use the smart service to convert the base64 string to a document version. This saves the document.
                     local!eventData.base64String,
                     document(
-                        cons!MY_DOCUCUMENT,
+                        cons!MY_DOCUMENT,
                         "id"
                     )
                 )
