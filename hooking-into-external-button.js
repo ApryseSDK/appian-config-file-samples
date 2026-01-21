@@ -22,11 +22,11 @@
             isSubmitting: local!isSubmitting,
         },
         onCustomEvent: {
-            local!eventData, // The data we submitted back from the viewer.
+            local!customEventData, // The data we submitted back from the viewer.
             a!save(
                 local!test,
                 base64todocumentversion(    // Use the smart service to convert the base64 string to a document version. This saves the document.
-                    local!eventData.base64String,
+                    local!customEventData.base64String,
                     document(
                         cons!MY_DOCUMENT,
                         "id"
